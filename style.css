@@ -18,13 +18,24 @@ header{
     position:fixed;
     height:10vh;
     width:100%;
-    /* background-color: #393646; */
     background-color: rgb(39,36,46,.7);
     background-image: url('assets/img/index.png');
     background-blend-mode: color-dodge;
     display:flex;
     justify-content: space-around;
     z-index: 150;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+span{
+    font-size: 20px;
 }
 
 .center{
@@ -46,11 +57,10 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 20px;
 }
 
 #menu>a:hover{
-    /* background-color: #6D5D6E; */
-    /* color: #F4EEE0; */
     text-underline-offset: 5px;
     text-decoration-line: underline;
 }
@@ -68,20 +78,9 @@ a{
     
 }
 
-/* #william{ */
-    /* color:black; */
-    /* display: flex;
-    justify-content: center;
-    margin-top: 10vh;
-} */
-
 #main{
-    padding-top: 10vh;
+    padding-top: 20vh;
     height:90vh;
-}
-
-#main>h1{
-    font-size:40px;
 }
 
 #main>div{
@@ -117,13 +116,15 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
 }
 
 .btnportfolio>a{
     padding: 20px;
     border: var(--border-color) solid 3px;
     border-radius: 25px;
-    margin-bottom: 10vh;
+    font-size: 15px;
+    /* margin-bottom: 10vh; */
 }
 
 .btnportfolio>a:hover{
@@ -137,6 +138,10 @@ a{
 
 #about>h1{
     padding-top: 15vh;
+}
+
+.aboutTxt{
+    font-size: 15px;
 }
 
 .imgicon{
@@ -186,6 +191,7 @@ a{
     border: var(--border-color) solid 3px;
     border-radius: 25px;
     padding: 20px;
+    font-size: 15px;
 }
 
 .btncv>a:hover{
@@ -302,6 +308,7 @@ button{
 
 .infoTxt{
     color: var(--text-color);
+    font-size: 20px;
     height: 65%;
     width: 80%;
     padding:10px;
@@ -315,6 +322,7 @@ button{
 
 .infoLink>a{
     border: var(--border-color) solid 3px;
+    font-size: 15px;
     border-radius: 25px;
     padding: 5px;
 }
@@ -355,6 +363,7 @@ button{
 
 .contactTxt{
     margin-top: 20px;
+    font-size: 20px;
 }
 
 

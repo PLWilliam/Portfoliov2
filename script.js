@@ -1,27 +1,35 @@
 projets = [
     [
         [
-            "assets/imgPortfolio/53e0d0454f5bac14f1dc8460962e33791c3ad6e04e507441722978d6944fc3_640.jpg"
+            "assets/imgPortfolio/CardBattle1_2.png"
         ],
         [
-            "assets/imgPortfolio/54e0d3405754a809ea898279c02132761022dfe05b567749752f73d1_640.jpg"
-        ],
-        [
-            "assets/imgPortfolio/54e6d5464f52ae14f1dc8460962e33791c3ad6e04e50744172297cdc9e48c3_640.jpg"
+            "assets/imgPortfolio/CardBattle2_2.png"
         ]
     ],
     [
         [
-            "assets/imgPortfolio/53e0d0454f5bac14f1dc8460962e33791c3ad6e04e507441722978d6944fc3_640.jpg"
+            "assets/imgPortfolio/hoodie_shop.png"
         ],
         [
-            "assets/imgPortfolio/54e0d3405754a809ea898279c02132761022dfe05b567749752f73d1_640.jpg"
+            "assets/imgPortfolio/hoodie_shop2.png"
+        ]
+        
+    ],
+    [
+        [
+            "assets/imgPortfolio/lyonvago1_2.png"
         ],
         [
-            "assets/imgPortfolio/54e6d5464f52ae14f1dc8460962e33791c3ad6e04e50744172297cdc9e48c3_640.jpg"
+            "assets/imgPortfolio/lyonvago2_2.png"
+        ]
+    ],
+    [
+        [
+            "assets/imgPortfolio/machine_a_cafe.png"
         ],
         [
-            "assets/imgPortfolio/index-64ce9dd908183987752385.jpeg"
+            "assets/imgPortfolio/machine_a_cafe2.png"
         ]
     ]
 ]
@@ -34,9 +42,12 @@ const img = document.querySelectorAll('.img');
 const modal = document.querySelector('#modal');
 const modalImg = document.querySelector('#modal>img');
 
-const nbr = [0,0] ;
+
+
+const nbr = [] ;
 
 for (let i = 0; i < projets.length; i++) {
+    nbr.push(0);
     changeImg(i)
     img[i].src = projets[i][nbr[i]];
 
