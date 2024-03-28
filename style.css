@@ -370,7 +370,7 @@ button{
 
     .project{
         flex-direction: column;
-        height: 80vh;
+        height: fit-content;
     }
 
     .imgSlider,.info{
