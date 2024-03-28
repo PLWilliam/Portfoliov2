@@ -1,6 +1,22 @@
 projets = [
     [
         [
+            "assets/imgPortfolio/OaspacPlayer.png"
+        ],
+        [
+            "assets/imgPortfolio/OaspacEvent.png"
+        ]
+    ],
+    [
+        [
+            "assets/imgPortfolio/CapsaoBackRadioList.png"
+        ],
+        [
+            "assets/imgPortfolio/CapsaoBackRadioAdd.png"
+        ]
+    ],
+    [
+        [
             "assets/imgPortfolio/CardBattle1_2.png"
         ],
         [
@@ -31,7 +47,7 @@ projets = [
         [
             "assets/imgPortfolio/machine_a_cafe2.png"
         ]
-    ]
+    ],
 ]
 
 const btnL = document.querySelectorAll('.btnL');

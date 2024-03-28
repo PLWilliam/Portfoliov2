@@ -131,11 +131,6 @@ a{
     background-color: var(--border-color);
 }
 
-#about{
-    /* height:100vh; */
-
-}
-
 #about>h1{
     padding-top: 15vh;
 }
@@ -309,7 +304,7 @@ button{
 .infoTxt{
     color: var(--text-color);
     font-size: 20px;
-    height: 65%;
+    height: fit-content;
     width: 80%;
     padding:10px;
 }
@@ -375,6 +370,7 @@ button{
 
     .project{
         flex-direction: column;
+        height: 80vh;
     }
 
     .imgSlider,.info{
