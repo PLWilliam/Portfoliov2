@@ -1,51 +1,74 @@
 projets = [
     [
         [
-            "assets/imgPortfolio/OaspacPlayer.png"
+            "assets/imgPortfolio/QVGA/QVGA1.png"
         ],
         [
-            "assets/imgPortfolio/OaspacEvent.png"
+            "assets/imgPortfolio/QVGA/QVGA2.png"
+        ],
+        [
+            "assets/imgPortfolio/QVGA/QVGA3.png"
+        ],
+        [
+            "assets/imgPortfolio/QVGA/QVGA4.png"
+        ],
+        [
+            "assets/imgPortfolio/QVGA/QVGA5.png"
+        ],
+        [
+            "assets/imgPortfolio/QVGA/QVGA6.png"
+        ],
+        [
+            "assets/imgPortfolio/QVGA/QVGA7.png"
+        ],
+    ],
+    [
+        [
+            "assets/imgPortfolio/CapsaoCCI/OaspacPlayer.png"
+        ],
+        [
+            "assets/imgPortfolio/CapsaoCCI/OaspacEvent.png"
         ]
     ],
     [
         [
-            "assets/imgPortfolio/CapsaoBackRadioList.png"
+            "assets/imgPortfolio/CapsaoStage/CapsaoBackRadioList.png"
         ],
         [
-            "assets/imgPortfolio/CapsaoBackRadioAdd.png"
+            "assets/imgPortfolio/CapsaoStage/CapsaoBackRadioAdd.png"
         ]
     ],
     [
         [
-            "assets/imgPortfolio/CardBattle1_2.png"
+            "assets/imgPortfolio/cardBattle/CardBattle1_2.png"
         ],
         [
-            "assets/imgPortfolio/CardBattle2_2.png"
+            "assets/imgPortfolio/cardBattle/CardBattle2_2.png"
         ]
     ],
     [
         [
-            "assets/imgPortfolio/hoodie_shop.png"
+            "assets/imgPortfolio/hoodie/hoodie_shop.png"
         ],
         [
-            "assets/imgPortfolio/hoodie_shop2.png"
+            "assets/imgPortfolio/hoodie/hoodie_shop2.png"
         ]
         
     ],
     [
         [
-            "assets/imgPortfolio/lyonvago1_2.png"
+            "assets/imgPortfolio/lyonVago/lyonvago1_2.png"
         ],
         [
-            "assets/imgPortfolio/lyonvago2_2.png"
+            "assets/imgPortfolio/lyonVago/lyonvago2_2.png"
         ]
     ],
     [
         [
-            "assets/imgPortfolio/machine_a_cafe.png"
+            "assets/imgPortfolio/machineCafe/machine_a_cafe.png"
         ],
         [
-            "assets/imgPortfolio/machine_a_cafe2.png"
+            "assets/imgPortfolio/machineCafe/machine_a_cafe2.png"
         ]
     ],
 ]

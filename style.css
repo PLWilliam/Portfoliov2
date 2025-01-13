@@ -218,8 +218,12 @@ a{
     align-items: center;
 }
 
+#modal:hover{
+    cursor: pointer;
+}
+
 #modal>img{
-    height: 50%;
+    height: 75%;
 }
 
 .project{
@@ -256,13 +260,14 @@ a{
     border:none;
     height:50px;
     width: 50px;
-    
     top: 45%;
     z-index: 100;
 }
 
 .btnSlider:hover{
     cursor: pointer;
+    background: rgba(52, 46, 56, 0.596);
+    color: white;
 }
 
 .btnL{
@@ -286,6 +291,7 @@ button{
 .img:hover{
     /* transform: scale(1.1); */
     cursor: pointer;
+    opacity: 0.8;
 }
 
 .info{
@@ -307,6 +313,7 @@ button{
     height: fit-content;
     width: 80%;
     padding:10px;
+    overflow-x: auto;
 }
 
 .infoLink{
